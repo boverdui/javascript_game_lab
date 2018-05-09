@@ -96,7 +96,7 @@ class GameContainer extends Component {
     return (
       <div className="game-container">
         <div className="title">
-          <h1>n0ughts and Xrosses</h1>
+          <h1>n0ughts & Xrosses</h1>
         </div>
         <button
           type="button"
