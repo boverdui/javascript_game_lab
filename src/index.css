@@ -1,6 +1,6 @@
 body {
   background-color: lightgray;
-  font-family: sans-serif;
+  font-family: Helvetica;
   margin: 0;
   padding: 0;
 }
@@ -35,6 +35,16 @@ button {
   margin-left: auto;
   margin-right: auto;
   width: 462px;
+}
+
+.game-container {
+  background-color: orange;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  width: 600px;
 }
 
 h1 {
