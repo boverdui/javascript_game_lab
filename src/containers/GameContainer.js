@@ -91,7 +91,6 @@ class GameContainer extends Component {
       newButtons[i] = 0;
     }
     this.setState({buttons: newButtons});
-    // this.state.turn = 1;
     this.state.gameWon = false;
     this.setMessage();
   }
@@ -111,8 +110,8 @@ class GameContainer extends Component {
         <GameBoard
           buttons={this.state.buttons}
           turn={this.state.turn}
-          handle={this.handleGameButtonClick}
-        />
+          handle={this.handleGameButtonClick}>
+        </GameBoard>
       </div>
     );
   }
