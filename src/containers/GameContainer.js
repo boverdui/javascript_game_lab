@@ -7,7 +7,9 @@ class GameContainer extends Component {
     this.state = {
       buttons: [0, 0, 0, 0, 0, 0, 0, 0, 0],
       turn: 1,
-      gameWon: false
+      gameWon: false,
+      scoreX: 0,
+      score0: 0
     }
     this.handleGameButtonClick = this.handleGameButtonClick.bind(this);
     this.handleResetButtonClick = this.handleResetButtonClick.bind(this);
@@ -57,8 +59,10 @@ class GameContainer extends Component {
     } else {
       if (this.state.turn === 1) {
         messageBox.textContent = "0 WON!";
+        this.state.score0 ++;
       } else {
         messageBox.textContent = "X WON!";
+        this.state.scoreX ++;
       }
     }
   }
@@ -96,7 +100,7 @@ class GameContainer extends Component {
     return (
       <div className="game-container">
         <div className="title">
-          <h1>n0ughts & Xrosses</h1>
+          <h1>{this.state.score0}&nbsp; n0ughts & Xrosses &nbsp;{this.state.scoreX}</h1>
         </div>
         <button
           type="button"
