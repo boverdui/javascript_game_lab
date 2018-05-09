@@ -20,9 +20,7 @@ class GameBoard extends Component {
         {buttons}
       </div>
     );
-
-  }  // end render()
-} // end class GameButton
-
+  }
+}
 
 export default GameBoard;

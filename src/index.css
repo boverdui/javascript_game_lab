@@ -1,23 +1,61 @@
 body {
+  background-color: lightgray;
+  font-family: sans-serif;
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+}
+
+button {
+  display: block;
+  font-size: 18px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 40px;
+  width: 250px;
 }
 
 .button-box {
+  background-color: white;
+  border: solid 2px black;
   display: inline-block;
-  height: 200px;
-  width: 200px;
-  border: solid 1px black;
+  height: 150px;
   text-align: center;
   vertical-align: bottom;
+  width: 150px;
 }
 
 .button-box img {
-  height: 200px;
-  width: 200px;
+  height: 150px;
+  width: 150px;
 }
 
 .game-board {
-  width: 606px;
+  border: solid 2px black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 462px;
+}
+
+h1 {
+  color: white;
+  font-size: 48px;
+  text-align: center;
+}
+
+p {
+  display: block;
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.title {
+  background-color: black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
 }
