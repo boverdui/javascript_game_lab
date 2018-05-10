@@ -106,7 +106,7 @@ class GameContainer extends Component {
           onClick={this.handleResetButtonClick}>
           Start New Game
         </button>
-        <p id="message-box">X goes first!</p>
+        <p id="message-box">&nbsp;</p>
         <GameBoard
           buttons={this.state.buttons}
           turn={this.state.turn}
