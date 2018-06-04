@@ -10,7 +10,7 @@ You might choose from one of the following:
 
 ## Screenshots of the finished product
 
-* Pair programmed with Paul Clatworthy
+* Pair programmed with Paul Clatworthy (strayllama)
 
 ![Alt text](screenshots/noughts_and_crosses.jpg?raw=true)
 
