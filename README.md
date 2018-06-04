@@ -12,4 +12,6 @@ You might choose from one of the following:
 
 * Pair programmed with Paul Clatworthy
 
+![Alt text](screenshots/noughts_and_crosses.jpg?raw=true)
+
 
